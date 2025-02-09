@@ -136,8 +136,12 @@ input[name="slider"] {
 }
 
 .slide-2 {
+    display:flex;
+    margin-left:100px;
+
     background-image: url(Highlight-M365-Icon-Bounce_VP5-1920x600.avif);
     justify-content: left;
+
 }
 
 .slide-content {
