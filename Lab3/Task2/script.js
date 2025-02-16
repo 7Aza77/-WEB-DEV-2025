@@ -31,6 +31,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 if (checkbox.checked) {
                     titleSpan.style.textDecoration = "line-through"; 
                     defSpan.style.textDecoration = "line-through";
+                    window.alert(taskText + "text");
                 } else {
                     titleSpan.style.textDecoration = "none"; 
                     defSpan.style.textDecoration = "none"; 
